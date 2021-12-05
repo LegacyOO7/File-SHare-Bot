@@ -11,7 +11,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>ᴊᴜsᴛ ᴀ ғɪʟᴇ sʜᴀʀᴇ ʙɪᴛ 😌</b>",
+            text = f"<b>ᴊᴜsᴛ ᴀ ғɪʟᴇ sʜᴀʀᴇ ʙᴏᴛ 😌</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
